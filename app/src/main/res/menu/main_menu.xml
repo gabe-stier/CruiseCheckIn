@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <item
+        android:id="@+id/howToUse"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="How to Use" /> --><item
+    android:id="@+id/deckAssign"
+    android:icon="@android:drawable/ic_menu_help"
+    android:title="Assign Deck"/>
+    <item
+        android:id="@+id/submit"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Submit"/>
+    <item
+        android:title="File"
+        android:id="@+id/fileMenu"
+        android:icon="@android:drawable/ic_menu_help"
+        android:titleCondensed="File"
+        android:visible="true"><menu></menu></item>
+    <item
+        android:title="Search Passenger"
+        android:id="@+id/search"
+        app:showAsAction="collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+</menu>
